@@ -1,0 +1,27 @@
+<!DOCTYPE HTML >
+<html lang="en"  xmlns:th="https://thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>Index- Page</title>
+</head>
+<body>
+
+    <form action = "saveUser" method="post">
+        <table>
+            <tr>
+                <td><label for="user-name">User Name</label></td>
+                <td><input type="text" name="user-name" id = "user-name"></td>
+            </tr>
+
+            <tr>
+                <td><label for="email">Email</label></td>
+                <td><input id = "email" type="text" name="email"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" value="Submit"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
